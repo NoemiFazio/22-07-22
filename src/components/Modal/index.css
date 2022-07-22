@@ -3,7 +3,7 @@
   top: 20%;
   left: calc(50% - 300px);
   width: 600px;
-  height: 400px;
+  height: 500px;
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
@@ -23,13 +23,17 @@
 }
 
 .Modal__img {
-  width: 600px;
-  height: 200px;
+  margin-left: calc(50% - 100px);
+  margin-top: 50px;
+  width: 200px;
+  height: 300px;
   object-fit: cover;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
 }
-
+.Modal__header {
+  text-align: center;
+}
 .Modal__desc {
   padding: 0 20px;
 }
