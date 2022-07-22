@@ -22,11 +22,19 @@ function App() {
       <CardList
         title="Top series"
         BASE_URL="https://edgemony-backend.herokuapp.com/series"
+        Links={""}
         modalVisibility={onHandleModal}
       />
       <CardList
         title="Top Movies"
         BASE_URL="https://edgemony-backend.herokuapp.com/movies"
+        Links={""}
+        modalVisibility={onHandleModal}
+      />
+      <CardList
+        title="My Series"
+        BASE_URL=""
+        Links={Links}
         modalVisibility={onHandleModal}
       />
       <Modal
@@ -35,7 +43,7 @@ function App() {
         onModalClick={setModalVisibility}
       />
       <div className="seriesFromLinks">
-        <h1 className="seriesFromLinks__title">My series</h1>
+        <h1 className="seriesFromLinks__title">My series Alternative</h1>
         <div className="seriesfromLinks__list">
           {Links.map((serie) => (
             <Card data={serie} key={serie.id} modalVisibility={onHandleModal} />
