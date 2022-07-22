@@ -1,0 +1,18 @@
+.Footer {
+  background-color: white;
+  border-top: 1px solid #e88c67;
+  border-style: dashed;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  /* padding-top: 15px; */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+.Footer__icona {
+  height: 30px;
+}

@@ -1,0 +1,15 @@
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* text-align: center; */
+}
+
+.seriesFromLinks {
+  margin: 0 0px 60px 20px;
+}
+.seriesFromLinks__title {
+  color: #ee9f81;
+}
+.seriesfromLinks__list {
+  display: flex;
+  flex-direction: row;
+}
